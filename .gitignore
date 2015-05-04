@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# XCode Projects
+*.xcodeproj
+
+# SCons
+*.sconsign.dblite
