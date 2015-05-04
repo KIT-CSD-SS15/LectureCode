@@ -1,0 +1,6 @@
+Program(target="Rectangle", source=["Rectangle.cpp"])
+Program(target="Inheritance", source=["Inheritance.cpp"])
+Program(target="SubtypePolymorphism", source=["SubtypePolymorphism.cpp"])
+Program(target="ParametricPolymorphism", source=["ParametricPolymorphism.cpp"])
+Program(target="AdhocPolymorphism", source=["AdhocPolymorphism.cpp"])
+Program(target="CoercionPolymorphism", source=["CoercionPolymorphism.cpp"])
