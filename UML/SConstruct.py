@@ -1,0 +1,8 @@
+Program(target="UMLExample01", source=["UMLExample01.cpp"])
+Program(target="UnaryAssociation", source=["UnaryAssociation.cpp"])
+Program(target="BinaryAssociation", source=["BinaryAssociation.cpp"])
+Program(target="Aggregation", source=["Aggregation.cpp"])
+Program(target="Composition", source=["Composition.cpp"], libs=['m'])
+Program(target="ParametricAssociation", source=["ParametricAssociation.cpp"])
+Program(target="Friends", source=["Friends.cpp"])
+Program(target="Inheritance", source=["Inheritance.cpp"])
