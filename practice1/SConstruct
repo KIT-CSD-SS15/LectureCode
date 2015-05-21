@@ -1,0 +1,6 @@
+#-*- coding: utf-8 -*-
+
+env = DefaultEnvironment()
+
+Program ("practiceProgram", [Glob('*.cc')] , CPPPATH=['.'], CCFLAGS = ['-std=c++11', '-ggdb'])
+
