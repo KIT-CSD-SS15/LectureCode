@@ -1,0 +1,7 @@
+#-*- coding: utf-8 -*-
+
+env = DefaultEnvironment()
+
+Program ("profilingTest", [Glob('*.cc')] , CPPPATH=['.'],\
+  CCFLAGS = ['-std=c++11', '-ggdb', '-pg'], LINKFLAGS = ['-pg'])
+
